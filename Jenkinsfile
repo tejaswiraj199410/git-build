@@ -31,6 +31,11 @@ steps{
 echo "this is a third stage build"
 }
 }
+stage ('this is fourth stage build'){
+  steps{
+    echo "this is fourth stage build"
+  }
+}  
 }
 
 }
